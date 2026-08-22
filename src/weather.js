@@ -2,7 +2,7 @@ import { getUserLocation as userLocationInfo} from "./location.js"
 
 const getWeather = async () => {
     try {
-        const { latitude, longitude } = await userLocationInfo();
+        const { country, city, latitude, longitude } = await userLocationInfo();
 
         const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,wind_speed_10m`
         const response = await fetch(url)
@@ -18,6 +18,8 @@ const getWeather = async () => {
         const currentWindSpeed = weatherData.current.wind_speed_10m;
 
         return {
+            country: country,
+            city: city,
             time: currentTime,
             temperature: currentTemperature,
             windSpeed: currentWindSpeed,

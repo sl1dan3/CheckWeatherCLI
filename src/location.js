@@ -13,6 +13,8 @@ const getUserLocation = async () => {
         }
 
         const userCoordinates = {
+            country: userLocationInfo.country,
+            city: userLocationInfo.city,
             latitude: userLocationInfo.latitude,
             longitude: userLocationInfo.longitude,
         }
