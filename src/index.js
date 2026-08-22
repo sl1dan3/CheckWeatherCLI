@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { getWeather } from "./weather.js";
 
 const displayWeatherInfo = async () => {
@@ -14,4 +16,4 @@ const displayWeatherInfo = async () => {
 
 }
 
-displayWeatherInfo()
+displayWeatherInfo();
