@@ -1,11 +1,11 @@
 {
-  "name": "checkweathercli",
+  "name": "@sl1dan3/checkweathercli",
   "version": "1.0.0",
   "description": "CLI application for checking weather",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "weather": "./src/index.js"
+    "weather": "src/index.js"
   },
   "scripts": {
     "start": "node src/index.js"
