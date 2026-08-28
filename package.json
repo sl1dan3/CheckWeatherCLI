@@ -1,16 +1,20 @@
 {
   "name": "checkweathercli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI application for checking weather",
   "main": "src/index.js",
   "type": "module",
   "bin": {
     "weather": "./src/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "weather",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Arseniy Dementev",
+  "license": "MIT"
 }
