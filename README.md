@@ -32,7 +32,7 @@ The application retrieves current weather information and displays it directly i
 Install the package globally using npm:
 
 ```bash
-npm install -g checkweathercli
+npm install -g @sl1dan3/checkweathercli
 ```
 
 ### Usage
@@ -98,7 +98,7 @@ This project is licensed under the MIT License.
 Установите пакет глобально через npm:
 
 ```bash
-npm install -g checkweathercli
+npm install -g @sl1dan3/checkweathercli
 ```
 
 ### Использование
