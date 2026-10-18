@@ -1,4 +1,5 @@
 # CheckWeatherCLI 🌤️
+###Unavailable for Russian users
 
 A simple command-line application for getting current weather information.
 
